@@ -14,7 +14,7 @@ import { Link } from "react-router-dom";
 const Sidebar = () => {
   return (
     <div className="sidebar">
-      <Link to="/">
+      <Link to="/home">
         <img src={logo} alt="EcommerceLogo" />
       </Link>
       <Link to="/admin/dashboard">
